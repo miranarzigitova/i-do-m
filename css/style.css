@@ -1,0 +1,122 @@
+ul {
+  list-style-type: none;
+  width: 500px;
+}
+.btn-danger {
+  height: 48px;
+  border-radius: 0;
+}
+
+.main-image {
+  background: url("../images/3792\ 1.jpg");
+  height: 650px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+li {
+  position: relative;
+}
+
+.active::after {
+  content: "";
+  height: 4px;
+  width: 15px;
+  border-color: red;
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+}
+
+.about-us h1 {
+  font-size: 50px;
+}
+.about-us h4 {
+  font-weight: bold;
+}
+.services {
+  background-color: #ecf0f17a;
+}
+
+i::before {
+  font-size: 40px;
+}
+.staff__avatar {
+  background: url("../images/avatar.png");
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+}
+
+/* footer */
+.footer {
+  width: 100%;
+}
+
+.footer-box {
+  display: flex;
+  column-gap: 190px;
+  padding-top: 80px;
+  justify-content: center;
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  padding-bottom: 80px;
+}
+
+.footer-title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #ffffff;
+}
+
+.footer-sub {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #ffffff;
+}
+
+.footer-but {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 165px;
+  height: 50px;
+  border-radius: 7px;
+  border: 0;
+}
+
+.head-text1 {
+  display: flex;
+}
+.footer-end-icon {
+  display: flex;
+  column-gap: 24px;
+}
+
+.footer-end-but {
+  width: 32px;
+  height: 32px;
+  background: #ffffff85;
+  border: 0;
+  border-radius: 100%;
+}
+
+.footer-end {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 125px;
+  border-top: 1px solid #ffffff91;
+  color: #d9dbe1;
+  font-size: 14px;
+  line-height: 14px;
+}
